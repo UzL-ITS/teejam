@@ -1,0 +1,11 @@
+.idea/
+sgxsdk_local
+local_sgx-sdk
+venv
+
+*.swp
+*.a
+*.so
+*.o
+*.log
+*.out

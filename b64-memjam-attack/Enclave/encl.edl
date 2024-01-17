@@ -1,0 +1,11 @@
+enclave {
+  from "sgx_tsgxssl.edl" import *;
+  from "sgx_pthread.edl" import *;
+
+  trusted {
+	  public void * get_rsa_key_load_addr(void);
+    public void rsa_key_load();
+  };
+
+  untrusted {};
+};

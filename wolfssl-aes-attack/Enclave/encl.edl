@@ -1,0 +1,17 @@
+enclave {
+  // from "sgx_tsgxssl.edl" import *;
+  // from "sgx_pthread.edl" import *;
+
+  trusted {
+    
+    public void wssl_aes_enc(void);
+    public void * get_wssl_aes_enc_address(void);
+    public void wssl_update_plain_text(void); 
+    public void wssl_get_plain([user_check] uint8_t *pbuffer);
+    public void wssl_get_cipher([user_check] uint8_t *cbuffer);
+  };
+
+  untrusted {
+
+  };
+};

@@ -1,0 +1,12 @@
+enclave {
+	
+	trusted {
+
+		public int get_test_access_pos_1_for_4k_attack(unsigned int attack_offset);
+		public void test_access_for_4k_attack(int pos1, int pos2);
+		public void* get_test_mem1_addr(void);
+		public void * get_stub_adrs(void);
+	};
+	untrusted {
+	};
+};

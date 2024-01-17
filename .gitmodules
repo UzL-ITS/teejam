@@ -1,0 +1,6 @@
+[submodule "sgx-step"]
+	path = sgx-step
+	url = https://github.com/jovanbulck/sgx-step.git
+[submodule "wolfssl-aes-attack/Enclave/wolfssl"]
+	path = wolfssl-aes-attack/Enclave/wolfssl
+	url = https://github.com/wolfSSL/wolfssl.git

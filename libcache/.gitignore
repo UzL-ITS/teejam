@@ -1,0 +1,10 @@
+*.so
+*.a
+*.o
+*.d
+
+test2/out
+
+.cproject
+.project
+.settings
